@@ -45,19 +45,20 @@ label{
     background-image: url(./assets/images/bg-item.png);}
 
 .decro:hover{ 
-    font-size: 32px;
+    font-size: 31px;
+    color: #ffffff;
     animation-name: border;
     animation-duration: 1s; 
     animation-fill-mode: both;
 }
 
 .decro{
-    transition-duration: 60ms;
+    transition-duration: 500ms;
+    font-size: 30px;
 }
 
 .begining {
     font-family: Lato;
-    font-size: 32px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -67,7 +68,6 @@ label{
 }
 
 .hed{
-   
         color: #A1A1A1;
         font-size: 26px;
         font-family: Lato;
@@ -75,5 +75,13 @@ label{
         text-transform: capitalize;
         letter-spacing: 0.70px;
         word-wrap: break-word;
+       
+}
+
+.hed:hover{
+    color: #cfcfcf;
+    animation-name: border;
+        animation-duration: 800ms;
+        animation-fill-mode: both;
 }
 
