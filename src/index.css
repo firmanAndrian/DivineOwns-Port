@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes border{
+
+        from {
+            border-bottom: solid rgba(0, 0, 0, 0) 1px;
+        }
+    
+        to {
+            border-bottom: solid 1px;
+        }
+}
+
+.layoutForm{
+    background-image: url(./assets/images/item-bg-blur.jpg);
+}
+
+.judul{
+    font-family: Lato;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+}
+
+label{
+        font-family: lato;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 125.5%;
+        letter-spacing: 0.56px;
+}
+
+.kotak{
+  
+    border-bottom: 2px solid rgba(46, 43, 43, 0.5);
+}
+
+.layout{
+    background-image: url(./assets/images/bg-item.png);}
+
+.decro:hover{ 
+    font-size: 32px;
+    animation-name: border;
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+}
+
+.decro{
+    transition-duration: 60ms;
+}
+
+.begining {
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #cececef8;
+}
+
+.hed{
+   
+        color: #A1A1A1;
+        font-size: 26px;
+        font-family: Lato;
+        font-weight: 900;
+        text-transform: capitalize;
+        letter-spacing: 0.70px;
+        word-wrap: break-word;
+}
+
