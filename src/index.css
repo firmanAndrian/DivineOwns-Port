@@ -45,16 +45,11 @@ label{
     background-image: url(./assets/images/bg-item.png);}
 
 .decro:hover{ 
-    font-size: 31px;
+    font-size: 20px;
     color: #ffffff;
     animation-name: border;
     animation-duration: 1s; 
     animation-fill-mode: both;
-}
-
-.decro{
-    transition-duration: 500ms;
-    font-size: 30px;
 }
 
 .begining {
