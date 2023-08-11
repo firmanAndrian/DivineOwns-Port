@@ -6,7 +6,7 @@ const Home =() => {
     return(
         <AuthLayouts>
             <div className="max-w-full h-full">
-                <div className="max-w-full layout h-screen bg-cover">
+                <div className="max-w-full layout h-screen bg-cover bg-center">
                     
                 </div>
                 <div></div>

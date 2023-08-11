@@ -20,17 +20,17 @@
 
 .judul{
     font-family: Lato;
-        font-size: 32px;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 900;
+        font-weight: 800;
         line-height: normal;
-        letter-spacing: 0.4px;
+        letter-spacing: 0.6px;
         text-transform: uppercase;
 }
 
 label{
         font-family: lato;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         line-height: 125.5%;
         letter-spacing: 0.56px;
@@ -63,8 +63,9 @@ label{
 }
 
 .hed{
+        
         color: #A1A1A1;
-        font-size: 26px;
+        font-size: 10px;
         font-family: Lato;
         font-weight: 900;
         text-transform: capitalize;
