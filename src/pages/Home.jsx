@@ -21,12 +21,33 @@ const Home =() => {
                             <div className="basis-full sm:basis-4/12 lg:basis-6/12 h-[90px] md:h-[310px] lg:h-[330px] sm:h-full bnnr bg-[#474747b2] flex flex-col items-center justify-between p-2 sm:p-7 sm:text-[23px] md:text-[28px] lg:text-[32px]">
                                 <h3 className="text-[#FFF] ">why wait ?</h3>
                                 
-                                <h3 className="text-[#FFF] text-[12px] w-max decro duration-500 hover:text-[12px] sm:text-[23px]  sm:hover:text-[23.5px] md:text-[28px] md:hover:text-[29.5px] lg:text-[32px] lg:hover:text-[33.5px]">Join now !</h3>
+                                <h3 className="text-[#FFF] text-[12px] w-max decro duration-500 hover:text-[12px] sm:text-[23px]  sm:hover:text-[23.5px] md:text-[28px] md:hover:text-[29.5px] lg:text-[32px] lg:hover:text-[33.5px]"><a href="/login">Join now !</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div></div>
+                <div className="w-full flex flex-col items-center border-2">
+                    <h1 className="champion mt-[4%]">CHAMPIONS</h1>
+                    <div className="flex flex-row border-2 w-[60%] justify-center ">
+                        <div className="flex flex-row  basis-full justify-center">
+                            <div className="flex flex-col items-center basis-6/12 border-2">
+                                <ul className="text-[11px] pt-2">
+                                    <li>Naruto</li>
+                                    <li>Sasuke</li>
+                                    <li>Sakura</li>
+                                    <li>Kakashi</li>
+                                </ul>
+                                <h4 className="text-[15px] py-4 ">Team Seven</h4>
+                                <h5 className="text-[12px] border-2">Champion Season 32</h5>
+                            </div>
+                            <div className="basis-6/12 border-2 img-champion bg-cover"></div>
+                        </div>
+                        {/* <div className="border-2 basis-3/6 ml-4">
+                            hallooo
+                        </div> */}
+                        
+                    </div>
+                </div>
             </div>
         </AuthLayouts>
     )

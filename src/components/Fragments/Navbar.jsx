@@ -9,7 +9,7 @@ return(
                         <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[29px] hed">Product</li>
                         <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[29px] hed">Tourney</li>
                         <li className="sm:ml-3 lg:ml-5 sm:text-[17px] md:text-[20px] lg:text-[29px] border-[1px] border-[#A1A1A1]"></li>
-                        <li className="sm:ml-3 lg:ml-5 sm:text-[17px] md:text-[20px] lg:text-[29px] hed">Sign In</li>
+                        <li className="sm:ml-3 lg:ml-5 sm:text-[17px] md:text-[20px] lg:text-[29px] hed"><a href="/login">Sign In</a></li>
                     </ul>
                 </div>
             </div>

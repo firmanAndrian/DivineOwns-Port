@@ -43,6 +43,10 @@ label{
 
 .layout{
     background-image: url(./assets/images/bg-item.png);}
+.img-champion {
+    background-image: url(./assets/images/peakpx.jpg);
+
+}
 
 .decro:hover{ 
     font-size: 21px;
@@ -101,4 +105,15 @@ label{
         line-height: normal;
         letter-spacing: 0.32px;
         text-transform: capitalize;
+}
+.champion{
+    color: #313131;
+    text-shadow: 0.2px -1px 4px rgba(0, 0, 0, 0.24);
+    font-family: lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
 }
