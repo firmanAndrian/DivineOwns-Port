@@ -26,8 +26,8 @@ const Home =() => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex flex-col items-center border-2">
-                    <h1 className="champion mt-[4%]">CHAMPIONS</h1>
+                <div className="w-full flex flex-col items-center border-2 pb-[80px] bg-[#D9D9D9af]">
+                    <h1 className="champion mt-[4%] mb-[8%]">CHAMPIONS</h1>
                     <div className="flex flex-row border-2 w-[60%] justify-center ">
                         <div className="flex flex-row  basis-full justify-center">
                             <div className="flex flex-col items-center basis-6/12 border-2">
@@ -38,9 +38,9 @@ const Home =() => {
                                     <li>Kakashi</li>
                                 </ul>
                                 <h4 className="text-[15px] py-4 ">Team Seven</h4>
-                                <h5 className="text-[12px] border-2">Champion Season 32</h5>
+                                <h5 className="text-[12px] border-2 text-center">Champion Season 32</h5>
                             </div>
-                            <div className="basis-6/12 border-2 img-champion bg-cover"></div>
+                            <div className="basis-6/12 border-2 img-champion flex-1 bg-cover bg-center"></div>
                         </div>
                         {/* <div className="border-2 basis-3/6 ml-4">
                             hallooo

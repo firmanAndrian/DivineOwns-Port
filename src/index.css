@@ -47,6 +47,11 @@ label{
     background-image: url(./assets/images/peakpx.jpg);
 
 }
+.img-champion:hover{
+    background-size:100% 100%;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+}
 
 .decro:hover{ 
     font-size: 21px;
