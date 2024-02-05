@@ -2,7 +2,7 @@ import InputForm from "../Elements/Inputs"
 import Button from "../Elements/Buttons"
 const FormLogin = () => {
     return (
-          <form className="w-10/12 sm:w-[78%] justify-center" action="#" method="POST">
+          <form className="w-10/12 sm:w-[78%] items-center" action="#" method="POST">
             <InputForm type="text" name="Email" pholder="" judul = "Email"/>
             <InputForm type="password" name="Password" pholder="" judul = "Password"/>
             <div className="flex items-center w-full mt-7 mb-6">
@@ -17,7 +17,7 @@ const FormLogin = () => {
             <Button>Sign in</Button>
 
 
-            <p className="justify-center flex mt-4 text-neutral-600 text-[13px] sm:text-[14px] font-light ">
+            <p className="justify-center flex mt-4 text-neutral-1000 text-[13px] sm:text-[14px] font-light ">
                 Not already have account ?{'   '}
                 <a href="register" className=" flex font-semibold text-indigo-600 ml-[2px] hover:text-indigo-500">
                 Register

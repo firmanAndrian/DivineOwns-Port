@@ -6,8 +6,10 @@ const AuthLayouts = (props) => {
     return (
         <>
         <Navbar/>
+
         {children}
         
+        {/* <Footer/> */}
         </>
     )
 }

@@ -11,7 +11,7 @@ const FormRegist = () => {
               <br />
             <Button>Sign Up</Button>
 
-            <p className="justify-center flex mt-6 text-neutral-600 text-[13px] sm:text-[14px] font-light leading-3">
+            <p className="justify-center flex mt-6 text-neutral-1000 text-[13px] sm:text-[14px] font-light leading-3">
             Already have account ?{''}
             <a href="login" className=" flex font-semibold text-indigo-600 ml-[2px] hover:text-indigo-500">
               Login
