@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDiceSix } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar =()=>{
@@ -45,6 +47,9 @@ return(
                         <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed">Tourney</li>
                         <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed hover:text-white"><a href="/login">Sign In</a></li>
                     </ul>
+                </div>
+                <div className='sm:hidden hover:rotate-45 duration-500'>
+                    <FontAwesomeIcon icon={faDiceSix} size='xl' color='white'/>
                 </div>
             </div>
         </div>

@@ -42,22 +42,18 @@ label{
 }
 
 .layout{
-    background-image: url(./assets/images/bg-item.png);}
-.img-champion {
-    background-image: url(./assets/images/peakpx.jpg);
-
+    background-image: url(./assets/images/bg-item.png);
 }
-.img-champion:hover{
-    background-size:100% 100%;
-    background-origin: content-box;
-    background-repeat: no-repeat;
+
+.bg-champion{
+    background-image: url(./assets/images/WhatsApp-Image-2024-02-06-at-02.58.37.jpeg);
 }
 
 .decro:hover{ 
     font-size: 20px;
     color: #ffffff;
     animation-name: border;
-    animation-duration: 1s; 
+    animation-duration: 2s; 
     animation-fill-mode: both;
 }
 
@@ -110,14 +106,13 @@ label{
         text-transform: capitalize;
 }
 .champion{
-    color: #313131;
+    
     text-shadow: 0.2px -1px 4px rgba(0, 0, 0, 0.24);
     font-family: lato;
-    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.64px;
+    letter-spacing: 1.64px;
     text-transform: capitalize;
 }
 
