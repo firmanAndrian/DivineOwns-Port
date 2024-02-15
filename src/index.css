@@ -14,6 +14,26 @@
         }
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Terapkan animasi ke konten */
+.delayed-content {
+    opacity: 0;
+    /* Mulai dengan opacity 0 */
+    animation: fadeIn 1s ease 3s forwards;
+    /* Animasi fade-in selama 1 detik, dimulai setelah delay 5 detik */
+}
+
+
+
 .layoutForm{
     background-image: url(./assets/images/item-bg-blur.jpg);
 }
@@ -80,7 +100,6 @@ label{
 }
 
 .hed{
-        border:red;
         color: #A1A1A1;
         font-size: 10px;
         font-family: Lato;
@@ -98,6 +117,12 @@ label{
     
 }
 
+.banimat:hover {
+    color: #ffffff;
+    animation-name: border;
+    animation-duration: 900ms;
+    animation-fill-mode:both;
+}
 
 .bnnr{
         font-family: 'Changa', sans-serif;
