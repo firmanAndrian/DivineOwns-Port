@@ -18,8 +18,8 @@ const Landingpages = ()=>{
                         />
                     </h2> 
                 </div>
-                <div className="flex w-max h-min begining mt-6 ml-8 md:mt-10 md:ml-16 text-[18px] md:text-[26px] lg:text-[30px] md:hover:text-[29px] lg:hover:text-[33px] decro duration-500 " >
-                    <h2 className="delayed-content"><a href="/home">STEP INTO</a></h2>
+                <div className="flex w-max h-min begining mt-6 ml-8 md:mt-10 md:ml-16 text-[18px] md:text-[26px] lg:text-[30px] md:hover:text-[29px] lg:hover:text-[33px]  duration-500 " >
+                    <h2 className="delayed-content bdr"><a href="/home">STEP INTO</a></h2>
                 </div>
             </div>
         </div>

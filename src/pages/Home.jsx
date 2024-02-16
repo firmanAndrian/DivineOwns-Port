@@ -34,7 +34,7 @@ const Home =() => {
                     <h1 className="champion text-[#313131] mt-[3%] mb-[5%] text-[25px] sm:text-[28px] md:text-[35px] lg:text-[47px] text-zinc-300">CHAMPIONS</h1>
                     <div className=" flex flex-col border-gray-950 w-[96%] my-10">
                         <div className=" flex flex-row justify-end">
-                            <p className=" banimat text-[12px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[5px]">See More</p>
+                            <p className="bdr text-[12px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[5px]">See More</p>
                         </div>
                         <div className="sm:relative sm:h-[300px] lg:h-[320px] bg-gradient-to-r from-slate-700 from-1% via-stone-900 via-20% to-zinc-800 to-99% flex flex-col items-center sm:items-end sm:pr-[8%] py-5">
                             <div className="w-[240px] sm:w-[260px] lg:w-[290px] h-[340px] sm:h-[360px] lg:h-[385px] rounded-2xl sm:absolute sm:-top-9 sm:left-16 bg-champion bg-cover bg-center shadow-lg shadow-neutral-700 hover:blur-[1px]">
@@ -47,13 +47,13 @@ const Home =() => {
                 {/* end section champions */}
 
 
-                <div className="bg-zinc-950 pb-[80px] pt-[5%] px-[2%]">
+                <div className="bg-zinc-950 py-[9%] px-[2%]">
                     <div className="champion text-zinc-300 text-[#313131] mb-[5%] text-[25px] sm:text-[28px] md:text-[35px] lg:text-[47px]">
                         Tournaments 
                     </div>
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col">
                         <div className="flex justify-end">
-                           <p className="banimat text-[12px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[14px]"> More Tournament</p> 
+                           <p className="bdr text-[12px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[14px]"> More Tournament</p> 
                         </div>
                         <div className="flex flex-row flexx-wrap justify-start mx-[40px] pb-[3%] grid grid-cols-4 gap-4">
                             <div className='flex flex-col flex-wrap  w-[290px] h-[385px] rounded-2xl border-[1px] border-yellow-500'>

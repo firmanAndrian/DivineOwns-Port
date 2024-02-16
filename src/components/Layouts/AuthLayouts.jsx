@@ -1,5 +1,5 @@
-import FormLogin from "../Fragments/FormLogin"
 import Navbar from "../Fragments/Navbar"
+import Footer from "../Fragments/Footer"
 
 const AuthLayouts = (props) => {
     const {children}= props
@@ -9,7 +9,7 @@ const AuthLayouts = (props) => {
 
         {children}
         
-        {/* <Footer/> */}
+        <Footer/>
         </div>
     )
 }
