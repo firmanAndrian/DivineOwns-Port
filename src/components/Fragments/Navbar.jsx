@@ -44,13 +44,13 @@ return(
                 </div>
                 <div className=" basis-4/6  flex  items-center justify-end hidden sm:inline-flex">
                     <ul  className="flex lg:h-[45px]">
-                        <li className="sm:text-[17px] md:text-[20px] lg:text-[26px] hed bdr"> 
+                        <li className="sm:text-[17px] md:text-[20px] lg:text-[26px] hed hover:text-white bdr"> 
                           <a href="/#">About</a>
                         </li>
-                        <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed bdr"> 
+                        <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed hover:text-white bdr"> 
                           <a href="/#">Product</a> 
                         </li>
-                        <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed bdr">
+                        <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed hover:text-white bdr">
                           <a href="/#">Tourney</a>
                         </li>
                         <li className="sm:ml-6 lg:ml-10 sm:text-[17px] md:text-[20px] lg:text-[26px] hed hover:text-white bdr">
