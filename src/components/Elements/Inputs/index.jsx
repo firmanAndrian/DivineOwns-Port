@@ -1,5 +1,5 @@
 import Input from "./Inputs"
-import Label from "./label"
+import Label from "./Label"
 
 const InputForm =(props)=>{
     const {type,name,pholder,judul} = props
