@@ -2,7 +2,7 @@ import { Routes, BrowserRouter, Route } from "react-router-dom";
 import LoginPages from "./pages/login";
 import ErorPages from "./pages/Eror";
 import RegistPages from "./pages/regist";
-import Landingpages from "./pages/landingPage";
+import Landingpages from "./pages/LandingPage";
 import Home from "./pages/Home";
 
 const App =()=>{
