@@ -52,7 +52,7 @@ return(
                     <div>
                         <h2 className='champion text-[10px] sm:text-[11px] lg:text-[13px] text-[#cececef8]  mb-2'><span><FontAwesomeIcon icon={faCopyright} size='sm' color='#cececef8'/></span> 2024 Firman</h2>
                         <h2 className="Champion text-[10px] sm:text-[11px] lg:text-[13px] text-[#cececef8]">
-                            Play together. Never loser
+                            Play Together. Never Loser
                         </h2>
                     </div>
                 </div>
