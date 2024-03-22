@@ -25,11 +25,11 @@ return(
                     <div className='basis-4/5'>
                         <ul className='grid grid-cols-3 gap-3 champion text-[11px] sm:text-[12px] lg:text-[14px] text-[#cececef8]'>
                             <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
-                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
-                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
-                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
-                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
-                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Home</li>
+                            <li className="border-l-2 border-[#cececef8] pl-[4px]">About</li>
+                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Tournament</li>
+                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Regulation</li>
+                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Sponsor</li>
+                            <li className="border-l-2 border-[#cececef8] pl-[4px]">Sign</li>
                         </ul>
                     </div>
                     <div className='basis-1/5 flex items-center'>
@@ -50,7 +50,7 @@ return(
                         </div>
                     </div>
                     <div>
-                        <h2 className='champion text-[10px] sm:text-[11px] lg:text-[13px] text-[#cececef8]'><span><FontAwesomeIcon icon={faCopyright} size='sm' color='#cececef8'/></span>2024 Firman</h2>
+                        <h2 className='champion text-[10px] sm:text-[11px] lg:text-[13px] text-[#cececef8]  mb-2'><span><FontAwesomeIcon icon={faCopyright} size='sm' color='#cececef8'/></span> 2024 Firman</h2>
                         <h2 className="Champion text-[10px] sm:text-[11px] lg:text-[13px] text-[#cececef8]">
                             Play together. Never loser
                         </h2>

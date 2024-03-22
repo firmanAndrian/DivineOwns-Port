@@ -37,7 +37,7 @@ const Home =() => {
                             <p className="bdr text-[13px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[5px]">See More</p>
                         </div>
                         <div className="sm:relative sm:h-[300px] lg:h-[320px] bg-gradient-to-r from-slate-700 from-1% via-stone-900 via-20% to-zinc-800 to-99% flex flex-col items-center sm:items-end sm:pr-[8%] py-5">
-                            <div className="w-[240px] sm:w-[230px] md:w-[270px] lg:w-[290px] h-[340px] sm:h-[320px]  lg:h-[385px] rounded-2xl sm:absolute sm:-top-2 sm:left-16 bg-champion bg-cover bg-center shadow-lg shadow-neutral-700 hover:blur-[1px]">
+                            <div className="w-[240px] sm:w-[230px] md:w-[270px] lg:w-[290px] h-[340px] sm:h-[320px] lg:h-[385px] rounded-2xl sm:absolute sm:-top-2 sm:left-16 md:-top-4 lg:-top-8 bg-champion bg-cover bg-center shadow-lg shadow-neutral-700 hover:blur-[1px]">
                             </div>
                             <p className="champion w-[70%] sm:w-[40%] md:w-[50%] lg:w-[65%] text-zinc-300 text-[13px] sm:text-[16px] lg:text-[24px] mt-4 lg:mt-14 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus earum beatae mollitia, delectus magnam sed optio fugiat pariatur nam itaque id, iste maiores. Cumque praesentium tenetur dolore adipisci, alias laboriosam.</p>
                             <p className="champion sm:w-[40%] md:w-[50%] lg:w-[60%] text-zinc-400 text-[12px] lg:text-[14px] mt-2 ml-2 lg:mt-4 lg:ml-4">Winner PES Season 12</p>
@@ -55,7 +55,7 @@ const Home =() => {
                         <div className="w-full flex justify-end">
                            <p className="bdr text-[13px] sm:text-[16px] lg:text-[18px] text-white h-[34px] mb-[14px]"> More Tournament</p> 
                         </div>
-                        <div className="flex flex-row flex-wrap justify-center  xl:justify-start xl:mx-[25px] pb-[3%] grid gap-4 sm:grid-cols-2 sm:gap-2 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-4 w-fit lg:w-[90%]">
+                        <div className="flex flex-row flex-wrap justify-center  xl:justify-start xl:mx-[2px] pb-[3%] grid gap-4 sm:grid-cols-2 sm:gap-2 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-3 xl:grid-cols-4 xl:gap-6 w-fit">
                             <div className='flex flex-col  w-[290px] h-[385px] rounded-2xl border-[1px] border-yellow-500'>
                                 <div className="basis-2/5 bg-white bg-cover bg-center rounded-t-2xl" style={{ backgroundImage: "url('src/assets/images/mobile-legends-tour.jpg')"}}>
                                 </div>
